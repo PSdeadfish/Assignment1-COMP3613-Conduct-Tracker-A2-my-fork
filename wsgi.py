@@ -18,7 +18,7 @@ from App.database import db
 app = create_app()
 migrate = get_migrate(app)
 
-# Student commands group
+# Student commands
 student_cli = AppGroup('student', help='Student management commands')
 
 @student_cli.command('add', help='Add a new student')
