@@ -14,27 +14,33 @@ $ pip install -r requirements.txt
 
 # Application Commands:
 * To Initialize the Database
-bash
+```bash
 flask init
+```
 
 # Student Commands:
 * Add Student
-bash
+```bash
 flask student add "<student_name>"
+```
 
 * Get Student by Name:
-bash
+```bash
 flask student get "<student_name>"
+```
 
 * List All Students:
-bash
+```bash
 flask student list
+```
 
 * Add Review for a Student:
-bash
+```bash
 flask student review <student_id> "<comment>" <is_positive>
+```
 
 * View Reviews for a Student: 
-bash
+```bash
 flask student reviews <student_id>
+```
 
